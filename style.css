@@ -1,0 +1,742 @@
+/* Navbar custom styles */
+.navbar {
+    background-color: #e2855a; /* Dark background for navbar */
+
+}
+.navbar-toggler {
+    border-color: black; /* Set the border color of the toggle button */
+    color: white;
+}
+/* Navbar toggle button color */
+.navbar-toggler {
+    border-color: black; /* Set the border color of the toggle button */
+}
+
+/* Toggle icon lines color */
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg>'); /* Set the lines color to white */
+}
+
+/* Optional: Navbar background color */
+.navbar-light {
+    background-color: #f8f9fa; /* You can change this to match your design */
+}
+
+
+.navbar-nav .nav-link {
+    color: white; 
+    transition: color 0.3s;
+    font-size: 25px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgb(184, 57, 57); /* Hover color */
+}
+
+.navbar-brand img {
+    height: 100px; /* Adjust logo size */
+}
+.icon-shadow {
+    text-shadow: 2px 2px 4px rgb(0, 0, 0); /* Adjust the shadow effect as needed */
+}
+
+/* .................................................................................................... */
+.navbar-nav .nav-link {
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff2213; /* Hover color */
+}
+
+.navbar-nav .nav-item .fa-facebook-f, 
+.navbar-nav .nav-item .fa-instagram, 
+.navbar-nav .nav-item .fa-youtube {
+    font-size: 25px;
+    color: #ffffff;
+}
+
+
+.navbar-nav .nav-item .fa-facebook-f, 
+.navbar-nav .nav-item .fa-instagram, 
+.navbar-nav .nav-item .fa-youtube {
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+.navbar-nav .nav-item .fa-facebook-f:hover, 
+.navbar-nav .nav-item .fa-instagram:hover, 
+.navbar-nav .nav-item .fa-youtube:hover {
+    color: #ff5e00; /* Hover color */
+    background-color: #000000; /* Black background on hover */
+    border-radius: 50%; /* Circular background */
+    padding: 10px; /* Adjust padding to ensure the circle stays in place */
+}
+
+
+button {
+    background-color: #ff5e00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+.bg-image {
+    position: relative;
+    background-image: url('your-image.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the overlay color */
+}
+
+.content h3 {
+    color: #ff5e00;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.content h1 {
+    color: #fff;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+/* Background image styling */
+.bg-image {
+    background-image: url('home2.jpg'); /* Replace 'background.jpg' with your image file path */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 80vh; /* Full viewport height */
+}
+
+/* Overlay styling */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+    z-index: 1; /* Ensure overlay is above the image */
+}
+
+/* Center the content */
+.content {
+    height: 100%;
+    z-index: 2; /* Ensure content is above the overlay */
+    position: relative;
+}
+
+/* Styling for text and button */
+h3 {
+    color: rgb(248, 243, 171);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.heading {
+    color: white;
+    font-size: 7rem;
+    margin-bottom: 2rem;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center; /* Ensure text is centered within the button */
+    display: inline-block;
+}
+
+/* Adjusting button width using Bootstrap class */
+.w-25 {
+    width: 25% !important; /* Override with the desired width */
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////// */
+/* Styling the counter boxes */
+
+/* ......................................................................................................... */
+.container {
+    text-align: center;
+}
+
+.service-item {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.service-img {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    border-radius: 60px 0 60px 0;
+}
+
+.overlayy {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: #fff;
+    font-size: 24px;
+    opacity: 1; /* Always visible */
+    transition: background-color 0.3s ease;
+    padding: 10px; /* Add some padding */
+    border-radius: 60px 0 60px 0;
+
+}
+
+.service-item:hover .overlayy {
+    background-color: rgba(0, 0, 0, 0.7); /* Darken the overlay on hover */
+}
+
+.overlayy h4 {
+    position: relative;
+    margin: 0;
+    padding-right: 250px; /* Space for the line */
+}
+
+.overlayy h4::after {
+    content: "";
+    position: absolute;
+    right:15px;
+    top: 55%;
+    transform: translateY(-50%);
+    height: 6px;
+    width: 225px; /* Length of the line */
+    background-color: #e77635;
+}
+/* ................................................................................................... */
+
+.container {
+    text-align: start;
+}
+
+.icon {
+    font-size: 40px;
+    color: #eb6518;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 20px; /* Add space between text and icon */
+}
+
+.fa-angles-right {
+    display: block; /* Make the icon a block element */
+    text-align: left; /* Align the icon to the right */
+    font-size: 24px; /* Adjust the size if needed */
+    color: #ff5e00; /* Same color as the top icon */
+    margin-top: 10px; /* Add some space above the icon */
+    border: 1px solid #ff5722;
+    background-color: #e963166b;
+    width: 50px;
+    padding: 10px;
+}
+/* ...................................................................................................... */
+.gym-section {
+    margin-top: 50px; /* Adjust top margin if needed */
+}
+
+.gym-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gym-img {
+    max-width: 48%; /* Make images fit within the column */
+    height: auto;
+    border-radius: 8px; /* Optional: Add some rounding to the image corners */
+    margin-right: 10px; /* Space between images */
+}
+
+.gym-text {
+    text-align: left; /* Align text to the left */
+}
+
+.welcome-text {
+    margin-bottom: 10px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.main-heading {
+    font-size: 38px;
+    margin-bottom: 15px;
+    color: #cf5915;
+    font-weight: bold;
+
+}
+
+
+.description {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.author-name {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.author-title {
+    font-size: 16px;
+    color: #555;
+}
+/* .................................................................................................... */
+.trainers-section {
+    margin-top: 50px; /* Space above the section */
+}
+
+.section-title {
+    font-size: 60px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.trainer-card {
+    margin-bottom: 30px; /* Space below each trainer card */
+}
+
+.trainer-img {
+    width: 100%;
+    height: 500px; /* Fixed height */
+    object-fit: cover; /* Ensure image covers area without distortion */
+    border-radius: 8px; /* Optional: Rounding corners */
+    margin-bottom: 15px; /* Space below image */
+}
+
+.trainer-name {
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #f85d15;
+
+}
+
+.trainer-title {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: start;
+    gap: 15px; /* Space between icons */
+    margin-top: 10px;
+}
+
+.social-icon {
+    color: #e6530f; /* Icon color */
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #102235; /* Darker color on hover */
+    background-color: #e9a064;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+/* membership................................................................................................ */
+
+
+.membership-container {
+    /* background-color: black; */
+    padding: 40px 20px;
+}
+
+.membership-container h1 {
+    color: #ff5e00;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.membership-card {
+    border-radius: 20px;
+    border: 3px solid #ff5e00;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    height: 650px;
+}
+
+.membership-card h3 {
+    margin-bottom: 15px;
+    color: rgb(233, 100, 23);
+    transition: color 0.3s ease;
+    padding-top: 50px;
+}
+
+.membership-card h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.membership-card ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.membership-card ul li {
+    margin-bottom: 10px;
+    list-style-type: none;
+    position: relative;
+    padding-left: 25px;
+}
+
+.membership-card ul li i {
+    position: absolute;
+    left: 60px;
+    color: #ff5e00;
+}
+
+.membership-card button {
+    background-color: transparent;
+    color: #e77635;
+    border: 2px solid #ffffff;
+    padding: 10px 10px; /* Reduced button width */
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    width: 200px;
+}
+
+.membership-card:hover {
+    background-color: #ff5e00;
+    color: white;
+    border: 2px solid black;
+}
+
+.membership-card:hover h3 {
+    color: white; /* Ensures h3 remains white on hover */
+}
+
+.membership-card:hover button {
+    background-color: white;
+    color: #ff5e00;
+}
+/* review...................................................................................... */
+.review-container h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.review-card {
+    display: none;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.review-card.active {
+    display: block;
+}
+
+.review-card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.review-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.review-card p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.stars {
+    color: #ff5e00;
+}
+
+.review-navigation {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.review-navigation button {
+    background-color: #ff5e00;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    margin: 0 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.review-navigation button:hover {
+    background-color: #333;
+}
+/* review..................................................................................... */
+.container.review-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: orangered;
+    margin-bottom: 20px;
+}
+
+.review-card {
+    display: none; /* Hide all review cards by default */
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+
+.review-card.active {
+    display: block; /* Display only active review cards */
+}
+
+.review-card img {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.review-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.review-card p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.review-card .stars i {
+    color: #ff5e00; /* Customize the star color */
+    margin: 0 2px;
+}
+
+.review-navigation {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.review-navigation button {
+    background-color: #ff5e00;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 0 5px;
+    transition: background-color 0.3s;
+}
+
+.review-navigation button:hover {
+    background-color: #e65300; /* Darken the button on hover */
+}
+
+.review-navigation .prev i,
+.review-navigation .next i {
+    font-size: 20px;
+}
+
+.review-navigation .prev {
+    margin-right: 10px;
+}
+
+.review-navigation .next {
+    margin-left: 10px;
+}
+/* footer.......................................................................................................... */
+.gym-footer {
+    color: #000000;
+    padding: 50px 0;
+}
+
+.gym-footer .container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.gym-footer .footer-logo img {
+    max-width: 250px;
+    margin-bottom: 20px;
+}
+
+.gym-footer .footer-description {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
+
+.gym-footer .subscribe-input {
+    /* padding: 10px; */
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #000000;
+    /* width: 30%; */
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 10px 20px;
+    
+
+}
+
+.gym-footer .subscribe-btn {
+    padding: 10px 20px;
+    background-color: #ff5e00;
+    border: none;
+    color: #000000;
+    border-radius: 5px;
+    height: 10%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.gym-footer .subscribe-btn:hover {
+    background-color: #fffbf9;
+    color: #000;
+}
+
+.gym-footer h5 {
+    font-size: 33px;
+    margin-bottom: 15px;
+    color: #ff5e00;
+}
+
+.gym-footer .footer-links,
+.gym-footer .footer-contact {
+    list-style: none;
+    padding: 0;
+}
+
+.gym-footer .footer-links li,
+.gym-footer .footer-contact li {
+    margin-bottom: 10px;
+}
+
+.gym-footer .footer-links li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 19px;
+    transition: color 0.3s;
+}
+
+.gym-footer .footer-links li a:hover {
+    color: #ff5e00;
+}
+
+.gym-footer .footer-contact li i {
+    margin-right: 0px;
+    font-size: 26px;
+}
+
+/* ........................................................................................... */
+.overlay-section {
+    background-image: url('ladt.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Black overlay with opacity */
+    z-index: 2;
+}
+
+.overlay-content {
+    position: relative;
+    z-index: 3;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.btn-custom {
+    background-color: #ff5e00;
+    color: white;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: white;
+    color: #ff5e00;
+}
+/* .................................................................................................... */
